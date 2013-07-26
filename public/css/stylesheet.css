@@ -1,0 +1,16 @@
+#content_container {
+  background: green;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+header {
+  background: red;
+  padding: 2% 1%;
+}
+
+#title {
+  background: blue;
+  font-size: 3em;
+}
