@@ -1,0 +1,7 @@
+<ul>
+  <% @entries.each_with_index do |entry, index| %>
+    <li>
+      <a href="<%= index + 1 %>"><%= entry %></a>
+    </li>
+  <% end %>
+</ul>
