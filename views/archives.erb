@@ -1,7 +1,8 @@
 <ul>
   <% @entries.each_with_index do |entry, index| %>
     <li>
-      <a href="<%= index + 1 %>"><%= entry %></a>
+      <a href="<%= index + 1 %>"><%= entry.title %></a>
+      <span> - <%= entry.date %></span>
     </li>
   <% end %>
 </ul>
